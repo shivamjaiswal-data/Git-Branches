@@ -1,5 +1,6 @@
-name = input("Enter your name: ")
-age = int(input("Enter your age: "))
+num = int(input("Enter a number: "))
 
-print("Hello", name)
-print("You are", age, "years old.")
+if num % 2 == 0:
+    print("The number is Even")
+else:
+    print("The number is Odd")
